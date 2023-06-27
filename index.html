@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency-Converter by David</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="card">
+      <div class="left-container">
+        <p class="title">Currency Converter</p>
+
+        <form action="">
+
+        <div class="input-container">
+          <p class="label">Amount</p>
+          <input type="number" maxlength="8" onkeypress="return (event.charCode !=8 && event.charCode ==0 || ( event.charCode == 46 || (event.charCode >= 48 && event.charCode <= 57)))" id="amount" />
+        </div>
+
+        <div class="input-container">
+          <p class="label">From</p>
+          <select name="" id="convert-from"></select>
+        </div>
+
+        <div class="input-container">
+          <p class="label">To</p>
+          <select name="" id="convert-to">
+          </select>
+        </div>
+
+        <a href="#" class="convert-button" id="convert-button">Convert</a>
+      </div>
+    </form>
+      
+    <div class="right-container">
+        <div id="check-sign" class="check-sign float floating">
+            <img src="css/svg/check.svg" alt="">
+          </div>
+
+        <div class="initial float">
+          <h1 id="initial-amount"class="initial-amount">- ----</h1>
+          <p id="initial-currency"class="initial-currency">...</p>
+        </div>
+
+        <div class="destination float">
+          <h1 id="final-amount"class="final-amount">- ----</h1>
+          <p id="final-currency" class="final-currency">...</p>
+        </div>
+
+        <p class="conversion-summary float" id="summary"></p>
+      </div>
+    </div>
+    <script  type="text/javascript" src="currency.js" ></script>
+
+    <script  type="text/javascript" src="app.js"></script>
+  
+  </body>
+</html>
