@@ -81,7 +81,7 @@ select {
 .left-container {
   width: 65%;
   height: 100%;
-  background: linear-gradient(135deg, #dd5f2e, #de2e54);
+  background: linear-gradient(#8a2387,#e94057,#f27121);
   padding: 4% 7% 7% 7%;
   clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
   border-top-left-radius: 10px;
