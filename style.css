@@ -65,7 +65,7 @@ select {
 .right-container {
   display: inline-block;
   background: #141414;
-  width: 35%;
+  width: 30%;
   height: 100%;
   border-top-right-radius: 3%;
   border-bottom-right-radius: 3%;
@@ -111,7 +111,7 @@ select {
 }
 
 .card {
-  background: #141414;
+  background: #94671e;
   height: 450px;
   width: 740px;
   vertical-align: middle;
