@@ -24,7 +24,7 @@ h1 {
 }
 
 .title {
-  color:orange;
+  color:white;
   margin-bottom: 12%;
   font-size: 100%;
   font-weight:100;
@@ -159,7 +159,7 @@ img {
 
 .floating {
   animation-name: floating;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
