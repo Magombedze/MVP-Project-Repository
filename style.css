@@ -99,19 +99,19 @@ select {
 
 .convert-button {
   background: #141414;
-  width: 50%;
+  width: 60%;
   display: block;
   font-size: 80%;
   line-height: 2em;
   border-radius: 35px;
   text-align: center;
-  color: red;
+  color: orange;
   text-decoration: none;
   margin-top: 10%;
 }
 
 .card {
-  background: #4d1502;
+  background: #93291e;
   height: 450px;
   width: 740px;
   vertical-align: middle;
