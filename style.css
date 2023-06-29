@@ -24,7 +24,7 @@ h1 {
 }
 
 .title {
-  color: white;
+  color:orange;
   margin-bottom: 12%;
   font-size: 100%;
   font-weight:100;
@@ -106,7 +106,7 @@ select {
   line-height: 2em;
   border-radius: 35px;
   text-align: center;
-  color:white;
+  color:orange;
   text-decoration: none;
   margin-top: 10%;
 }
