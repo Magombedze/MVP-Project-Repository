@@ -99,7 +99,7 @@ select {
 
 .convert-button {
   background: #141414;
-  width: 75%;
+  width: 50%;
   display: block;
   font-size: 80%;
   line-height: 2em;
@@ -111,7 +111,7 @@ select {
 }
 
 .card {
-  background: #94671e;
+  background: #154f3b;
   height: 450px;
   width: 740px;
   vertical-align: middle;
@@ -137,7 +137,7 @@ select {
   width: 45%;
   height: 45%;
   border: 3px solid white;
-  border-radius: 50%;
+  border-radius: 45%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
